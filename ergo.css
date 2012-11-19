@@ -1,0 +1,31 @@
+.ergo-widget {
+	border: 0;
+	cursor: pointer;
+	font: inherit;
+	margin: 0;
+	padding: 0 2px 0 2px;
+}
+
+.ergo-link {
+	cursor: pointer;
+}
+
+.ergo-red {
+	background: #faa;
+}
+
+.ergo-red:hover {
+	background: #fbb;
+}
+
+.ergo-green {
+	background: #afa;
+}
+
+.ergo-green:hover {
+	background: #bfb;
+}
+
+.ergo-checkbox {
+	max-width: 20px !important; /* Otherwise some layouts may break */
+}
